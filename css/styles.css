@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #333;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 80%;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  background-color: #555;
+}
+
+.keyboard {
+  width: 650px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.row:last-child {
+  justify-content: center;
+}
+
+.key {
+  width: 50px;
+  padding: 1rem 0;
+  text-align: center;
+  background-color: grey;
+  border-radius: 3px;
+}
+
+.key--space {
+  width: 100px;
+}
+
+.key--pressed {
+  background-color: lime;
+}
+
+.key--active {
+  background-color: purple;
+}
