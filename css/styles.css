@@ -51,9 +51,17 @@ body {
 }
 
 .key--pressed {
-  background-color: lime;
+  background-color: purple;
 }
 
 .key--active {
-  background-color: purple;
+  background-color: lime;
+}
+
+.letter-ok {
+  color: lime;
+}
+
+.letter-error {
+  color: red;
 }
